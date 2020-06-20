@@ -1,0 +1,18 @@
+[alias]
+    br = branch
+    co = checkout
+    cm = commit
+    st = status
+
+    tree = log --graph --decorate --pretty=oneline --abbrev-commit
+
+[color]
+    ui = auto
+    
+[user]
+    name = Carl Johnell
+
+[core]
+    editor = /usr/bin/vim
+    excludesfile = ~/.gitignore
+
